@@ -5,6 +5,20 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <div className={"inputs"}>
+          <input name="date" type="date"></input>
+          <div className={"notes"}>
+            <div className={"notes__element"}>
+              <input type="text"></input>
+              <select>Select Icon</select> 
+            </div>
+            <button>Add Note</button>
+          </div>
+          <div className={"image-upload"}>
+            <label htmlFor="notes-image">Add Image</label>
+            <input id="notes-image" name="notes-image" type="file" ></input>
+          </div>
+        </div>
         
       </main>
       <footer className={styles.footer}>
