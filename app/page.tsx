@@ -1,5 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Note from './Note/Note';
+
+const addNote = () => {
+
+}
 
 export default function Home() {
   return (
@@ -8,10 +13,7 @@ export default function Home() {
         <div className={"inputs"}>
           <input name="date" type="date"></input>
           <div className={"notes"}>
-            <div className={"notes__element"}>
-              <input type="text"></input>
-              <select>Select Icon</select> 
-            </div>
+            <Note>Helo world</Note>
             <button>Add Note</button>
           </div>
           <div className={"image-upload"}>
