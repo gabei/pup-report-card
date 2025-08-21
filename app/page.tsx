@@ -13,7 +13,7 @@ export default function Home() {
         <div className={"inputs"}>
           <input name="date" type="date"></input>
           <div className={"notes"}>
-            <Note>Helo world</Note>
+            <Note />
             <button>Add Note</button>
           </div>
           <div className={"image-upload"}>
